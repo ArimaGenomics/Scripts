@@ -46,11 +46,3 @@ def find_re_sites(sequence, enzymes):
 
 if __name__ == '__main__':
 	main()
-
-RE_cutsite = {
-	"MboI": "GATC",
-	"DpnII": "GATC",
-	"Sau3AI": "GATC",
-	"BglII": "AGATCT",
-	"HindIII": "AAGCTT"
-}
